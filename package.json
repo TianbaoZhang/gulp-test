@@ -1,0 +1,22 @@
+{
+  "name": "gulp-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development gulp server",
+    "build": "cross-env NODE_ENV=production gulp build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cross-env": "^5.0.5",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-clean-css": "^3.7.0",
+    "gulp-less": "^3.3.2",
+    "gulp-uglify": "^3.0.0",
+    "require-dir": "^0.3.2",
+    "yargs": "^8.0.2"
+  }
+}
